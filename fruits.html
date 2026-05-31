@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Marketplace</title>
+    <link rel="stylesheet" href="fruits.css">
+    <style>
+        @font-face {
+            font-family: 'PlusJakartaSans';
+            src: url('Fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            src: url('Fonts/Inter/static/Inter_18pt-Regular.ttf') format('truetype');
+        }
+    </style>
+
+</head>
+
+<body>
+
+       <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="downloads_dmart/logo.png" alt="logo">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a class="active">Fruits</a></li>
+                    <li><a>Vegetables</a></li>
+                    <li><a>Dairy</a></li>
+                    <li><a>Bakery</a></li>
+                    <li><a>Meat</a></li>
+                    <li><a>Organic</a></li>
+                </ul>
+            </div>
+            <div class="search-container " style="gap:25px;">
+                <div class="search" style="gap:20px;">
+                    <p>Search produce... </p>
+                    <div><img src="downloads_dmart/search.png"></span></div>
+                </div>
+                <div class="loc" style="align-self:center;">
+                    <img src="downloads_dmart/loc.png" alt="loc">
+                </div>
+                <div class="user" style="align-self:center;">
+                    <img src="downloads_dmart/user.png" alt="user">
+                </div>
+                <div class="cart" style="align-self:center;">
+                    <img src="downloads_dmart/cart.svg" alt="cart">
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <section class="toggle">
+        <p><span>Home > </span><span> Fresh Products > </span><span style="color: #0D631B;font-weight: bold;"> Fruits &
+                Vegetables</span></p>
+    </section>
+
+    <section class="fruit-vegetable-1">
+        <div class="fruit-vegetable-col1">
+            <div>
+                <h3>Filters</h3>
+                <p style="margin-top: 8px;margin-left: 0;">Showing 142 products</p>
+                <br>
+                <hr style="width: 243px;">
+            </div>
+            <br>
+            <div>
+                <h5>PRICE RANGE</h5><br>
+                <form>
+                    <input type="checkbox" id="range1" class="range1" value="range1">
+                    <label for="range1">Under $5.00</label><br><br>
+                    <input type="checkbox" id="range2" class="range2" value="range2">
+                    <label for="range2">$5.00 - $10.00</label><br><br>
+                    <input type="checkbox" id="range3" class="range3" value="range3">
+                    <label for="range3">$10.00 - $20.00</label><br><br>
+
+                </form>
+
+            </div>
+            <br>
+            <div>
+                <h5>ORGANIC STATUS</h5><br>
+                <form>
+                    <input type="radio" id="radio1" class="radio1" value="radio1">
+                    <label for="radio1">100% Certified Organic</label><br><br>
+                    <input type="radio" id="radio2" class="radio2" value="radio2">
+                    <label for="radio2">In Conversion</label><br><br>
+
+                </form>
+            </div>
+            <br>
+            <div style="position: relative;">
+                <h5>NUTRITIONAL</h5><br>
+                <span style="background-color: #A3F69C;color:#005312;border-radius: 30px;padding: 5px 10px;margin-left: 0;">Vitamin
+                    C</span>
+                <span style="background-color: #EBE7E7;color:#40493D;border-radius: 30px;padding: 5px 10px;margin-left: 0;">Low
+                    Carb</span>
+                <span
+                    style="background-color: #EBE7E7;color:#40493D;border-radius: 30px;padding: 5px 10px;position: absolute;top:70px;left:0px ;margin-left: 0;">High
+                    Fiber</span>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div>
+                <br>
+                <h5>BRAND</h5><br>
+                <form>
+                    <select title="All Brands" name="brands"
+                        style="border: 1px solid #BFCABA;background-color: #FCF9F8; padding:6px 15px 6px ;border-radius: 5px;width: 85%;">
+                        <option value="all brands">All Brands</option>
+                    </select>
+                </form>
+            </div>
+
+        </div>
+        <div class="fruit-vegetable-col2">
+            <div class="fv-col2-top">
+                <h2>Fruits & Vegetables</h2>
+                <div style="display: flex;align-items: center;">
+                    <div>
+                        <p style="font-size: 14px;width: 60px;">Sort by:</p>
+                    </div>
+
+                    <select title="popularity" name="popularity"
+                        style="border: 1px solid #BFCABA;background-color: #FCF9F8; padding:6px 15px 6px ;border-radius: 5px;width: 100%; font-size: 14px;">
+                        <option value="popularity">Popularity</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class="fv-card-container">
+                <div class="best-cards">
+                    <p class="limited">Limited</p>
+                    
+                    <img src="downloads_dmart/apple.png">
+                    <h3>Honeycrisp
+                        Apples</h3>
+                    <p>Crisp, juicy, and perfectly
+                        sweet-tart. Locally sourced…</p>
+                    <div  style="display:flex;justify-content: space-between;position: relative;">
+                        <span>$5.50</span>
+                        <a href="apple.html"><span style="background-color: #FC820C;color: #5E2C00;padding: 6px 12px;border-radius: 5px;position: absolute;right:14px">Add</span></a>
+                    </div>
+                     <p style="margin-top:0px; margin-left: 18px;">per Kg</p>
+                </div>
+
+                <div class="best-cards">
+                    <p class="limited">Limited</p>
+                    <img src="downloads_dmart/banana.png">
+                    <h3>Premium
+Bananas</h3>
+                    <p>Crisp, juicy, and perfectly
+                        sweet-tart. Locally sourced…</p>
+                    <div  style="display:flex;justify-content: space-between;position: relative;">
+                        <span>$3.50</span>
+                        <span style="background-color: #FC820C;color: #5E2C00;padding: 6px 12px;border-radius: 5px;position: absolute;right:14px">Add</span>
+                    </div>
+                     <p style="margin-top:0px; margin-left: 18px;">per Kg</p>
+                </div>
+
+               <div class="best-cards">
+                <p class="limited">Limited</p>
+                    <img src="downloads_dmart/carrotheri.png">
+                    <h3>Heirloom
+Carrots</h3>
+                    <p>Crisp, juicy, and perfectly
+                        sweet-tart. Locally sourced…</p>
+                    <div  style="display:flex;justify-content: space-between;position: relative;">
+                        <span>$6.50</span>
+                        <span style="background-color: #FC820C;color: #5E2C00;padding: 6px 12px;border-radius: 5px;position: absolute;right:14px">Add</span>
+                    </div>
+                     <p style="margin-top:0px; margin-left: 18px;">per Kg</p>
+                </div>
+                <div class="best-cards">
+                    <p class="limited">Limited</p>
+                    
+                    <img src="downloads_dmart/avacado.png">
+                    <h3>Haas Avocado</h3>
+                    <p>Crisp, juicy, and perfectly
+                        sweet-tart. Locally sourced…</p>
+                    <div  style="display:flex;justify-content: space-between;position: relative;">
+                        <span>$8.50</span>
+                        <span style="background-color: #FC820C;color: #5E2C00;padding: 6px 12px;border-radius: 5px;position: absolute;right:14px;font-size: 14px;">Add</span>
+                    </div>
+                     <p style="margin-top:0px; margin-left: 18px;">per Kg</p>
+                </div>
+
+               <div class="best-cards">
+                <p class="limited">Limited</p>
+                    <img src="downloads_dmart/curry.png">
+                    <h3>Honeycrisp
+                        Apples</h3>
+                    <p>Crisp, juicy, and perfectly
+                        sweet-tart. Locally sourced…</p>
+                    <div  style="display:flex;justify-content: space-between;position: relative;">
+                        <span>$6.50</span>
+                        <span style="background-color: #FC820C;color: #5E2C00;padding: 6px 12px;border-radius: 5px;position: absolute;right:14px;font-size: 14px;">Add</span>
+                    </div>
+                     <p style="margin-top:0px; margin-left: 18px;">per Kg</p>
+                </div>
+
+                <div class="best-cards">
+                    <p class="limited">Limited</p>
+                    <img src="downloads_dmart/straberry11.png">
+                    <h3>Honeycrisp
+                        Apples</h3>
+                    <p>Crisp, juicy, and perfectly
+                        sweet-tart. Locally sourced…</p>
+                    <div  style="display:flex;justify-content: space-between;position: relative;">
+                        <span>$5.50</span>
+                        <span style="background-color: #FC820C;color: #5E2C00;padding: 6px 12px;border-radius: 5px;position: absolute;right:14px;font-size: 14px;">Add</span>
+                    </div>
+                     <p style="margin-top:0px; margin-left: 18px;">per Kg</p>
+                </div>
+                <div class="best-cards">
+                    <p class="limited">Limited</p>
+                    <img src="downloads_dmart/mango.png">
+                    <h3>Mangoes</h3>
+                    <p>Crisp, juicy, and perfectly
+                        sweet-tart. Locally sourced…</p>
+                    <div  style="display:flex;justify-content: space-between;position: relative;">
+                        <span>$5.50</span>
+                        <span style="background-color: #FC820C;color: #5E2C00;padding: 6px 12px;border-radius: 5px;position: absolute;right:14px;font-size: 14px;">Add</span>
+                    </div>
+                     <p style="margin-top:0px; margin-left: 18px;">per Kg</p>
+                </div>
+
+                <div class="best-cards">
+                    <p class="limited">Limited</p>
+                    <img src="downloads_dmart/blueberry.png">
+                    <h3>Blue Berries</h3>
+                    <p>Crisp, juicy, and perfectly
+                        sweet-tart. Locally sourced…</p>
+                    <div  style="display:flex;justify-content: space-between;position: relative;">
+                        <span>$5.50</span>
+                        <span style="background-color: #FC820C;color: #5E2C00;padding: 6px 12px;border-radius: 5px;position: absolute;right:14px;font-size: 14px;">Add</span>
+                    </div>
+                     <p style="margin-top:0px; margin-left: 18px;">per Kg</p>
+                </div>
+
+               <div class="best-cards">
+                <p class="limited">Limited</p>
+                    <img src="downloads_dmart/orange.png">
+                    <h3>Oranges</h3>
+                    <p>Crisp, juicy, and perfectly
+                        sweet-tart. Locally sourced…</p>
+                    <div  style="display:flex;justify-content: space-between;position: relative;">
+                        <span>$5.50</span>
+                        <span style="background-color: #FC820C;color: #5E2C00;padding: 6px 12px;border-radius: 5px;position: absolute;right:14px;font-size: 14px;">Add</span>
+                    </div>
+                     <p style="margin-top:0px; margin-left: 18px;">per Kg</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--page-toggle section-->
+    <section class="page-toggle">
+        <div class="page-nos">
+    
+                    <p class="page-nos-round"><</p>
+                    <p class="page-nos-round" style="background-color: #0D631B;color: #fff;">1</p>
+                    <p class="page-nos-round">2</p>
+                    <p class="page-nos-round">3</p>
+                    <p>...</p>
+                    <p class="page-nos-round">></p>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+
+        <div class="footer">
+
+            <div>
+                <h3
+                    style="margin-bottom: 14px;font-size: 20px;font-weight: 700;color: #0D631B;font-family:PlusJakartaSans ;">
+                    Organic Marketplace</h3>
+                <p style="margin-left: 0;">Dedicated to bringing the freshest, most<br>
+                    sustainable organic produce directly from our<br>
+                    network of family farms to your kitchen.</p>
+                <div class="footer-img">
+                   <div class="footer-icon">
+                        <img src="downloads_dmart/share.svg">
+                    </div>
+                   <div class="footer-icon">
+                        <img src="downloads_dmart/mail.svg">
+                    </div>
+                </div>
+
+            </div>
+            <div class="right-flex">
+                <div>
+                    <h4>Shop</h4>
+                    <ul>
+                        <li>All products </li>
+                        <li>Seasonal Boxes </li>
+                        <li>New Arrivals</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Company</h4>
+                    <ul>
+                        <li>About Us </li>
+                        <li>Sustainability </li>
+                        <li>Farming partners</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Support</h4>
+                    <ul>
+                        <li>Delivery Info</li>
+                        <li>privacy policy</li>
+                        <li>Terms and conditions</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
