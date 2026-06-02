@@ -55,15 +55,21 @@ header {
 }
 
 .search {
-    display: flex;
-    justify-content: space-between;
+     display: flex;
+    justify-content: space-around;
     border: 1px solid #BFCABA;
-    padding: 6px 22px;
-    font-size: 14px;
+    padding: 6px 14px;
     color: #6B7280;
-    border-radius: 15px;
-    margin-left: 25px;
+    border-radius: 16px;
+    margin-left: 26px;
 
+}
+.search input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 12px;
+    background-color: #FCF9F8;
 }
 
 
